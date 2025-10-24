@@ -1,10 +1,17 @@
-# Python-generated files
+# 编译结果
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
 
-# Virtual environments
-.venv
+# 虚拟环境
+.venv/
+.env/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints
+
+# 缓存
+*.egg-info/
+.eggs/
+
+#模型
+models/

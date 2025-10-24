@@ -1,0 +1,23 @@
+[project]
+name = "deepseek-ocr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch==2.10.0.dev20251020+cu130",
+    "torchvision==0.25.0.dev20251020+cu130",
+    "torchaudio==2.10.0.dev20251018+cu130",
+    "transformers==4.46.3",
+    "tokenizers==0.20.3",
+    "huggingface-hub",
+    "pillow",
+    "accelerate",
+    "einops",
+    "addict",
+    "tqdm",
+    "pandas",
+    "easydict>=1.13",
+]
+
+
