@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ocr": {
+      "command": "python",
+      "args": ["-m", "langchain_cli.server", "--module", "langgraph_tools.ocr_tool"],
+      "transport": "stdio"
+    },
+    "formatter": {
+      "command": "python",
+      "args": ["-m", "langchain_cli.server", "--module", "langgraph_tools.formatter_tool"],
+      "transport": "stdio"
+    }
+  }
+}

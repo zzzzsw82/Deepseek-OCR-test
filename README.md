@@ -30,8 +30,34 @@ python main.py --image-dir .\samples --output-dir .\outputs --model-path D:\mode
 - `--base-size`, `--image-size`, `--no-crop`: mirror the DeepSeek-OCR `infer` parameters.
 - `--dtype`: choose `bfloat16`, `float16`, or `float32`.
 - `--attn-impl`: set to `''` if Flash Attention 2 is unavailable.
+- `--enable-preprocessing`: turn on GPU-accelerated cropping/resize/sharpen to clean documents before inference (`--preprocess-max-size`, `--preprocess-min-size`, `--preprocess-margin`, `--preprocess-sharpen`, `--save-preprocessed` fine-tune the behaviour).
 
 Results:
 
 - A Markdown file per input image written to the output directory.
 - `results.csv` summarising image names, Markdown filenames, inference status, and recognised text.
+
+## LangGraph Agent Toolkit
+
+This repo also exposes the OCR + CSV workflow as LangGraph tools located under `langgraph_tools/` and an agent runtime in `agents/invoice_agent_runtime.py`. The runtime loads two tools:
+
+1. `deepseek_ocr_batch` &mdash; wraps the OCR pipeline.
+2. `invoice_markdown_to_csv` &mdash; formats Markdown into a CSV via an Ollama `qwen3:14b` model.
+
+Prompts live in `prompts/`. Adjust `agent_prompt.txt` to orchestrate tool usage and `formatter_prompt.txt` to control CSV formatting. Example use:
+
+```python
+import asyncio
+from agents import get_invoice_runtime
+
+runtime = get_invoice_runtime()
+
+async def main():
+    result = await runtime.invoke("请对 input/ 目录下的票据执行识别并导出 CSV")
+    print(runtime.latest_content(result))
+
+asyncio.run(main())
+```
+
+The tools return explicit file paths so a UI can surface uploads (images) and downloads (Markdown/CSV) later.
+Environment defaults are read from `.env` (optional): `INVOICE_AGENT_MODEL`, `OLLAMA_BASE_URL`, and `OLLAMA_TEMPERATURE`.

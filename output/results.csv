@@ -1,129 +1,17 @@
 image,markdown_file,status,error,text
-屏幕截图 2025-10-21 204454.png,屏幕截图 2025-10-21 204454.md,ok,,"<|ref|>text<|/ref|><|det|>[[30, 160, 220, 186]]<|/det|>
-[1 / 2] CURRENT BILLING CYCLE 
+test01.jpg,test01.md,ok,,"<|ref|>image<|/ref|><|det|>[[31, 53, 131, 201]]<|/det|>
 
-<|ref|>text<|/ref|><|det|>[[14, 290, 330, 316]]<|/det|>
-Note: Usage data may take at least one hour to reflect recent activity. 
+<|ref|>image<|/ref|><|det|>[[430, 60, 639, 211]]<|/det|>
 
-<|ref|>table<|/ref|><|det|>[[10, 360, 450, 767]]<|/det|>
-<table><tr><td>Credit Usage</td><td>0%</td></tr><tr><td>Credits Used</td><td></td></tr><tr><td></td><td>1 / 50,525 credits</td></tr><tr><td>Additional credits remaining (coupon)</td><td>50,024</td></tr><tr><td>Credits reset on undefined Manage plan</td><td></td></tr></table>
+<|ref|>text<|/ref|><|det|>[[732, 92, 950, 113]]<|/det|>
+发票号码：25442000000538687233
 
-<|ref|>table<|/ref|><|det|>[[456, 360, 936, 767]]<|/det|>
-<table><tr><td>Extract Tokens Usage</td><td>0%</td></tr><tr><td>Tokens Used</td><td></td></tr><tr><td></td><td>0 / 1,000,000 tokens</td></tr><tr><td>Additional tokens remaining (coupon)</td><td>500,000</td></tr><tr><td>Credit billing is via Stripe Manage plan</td><td></td></tr></table>"
-屏幕截图 2025-10-22 181936.png,屏幕截图 2025-10-22 181936.md,ok,,"<|ref|>text<|/ref|><|det|>[[15, 0, 135, 9]]<|/det|>
-NVIDIA控制面板
+<|ref|>text<|/ref|><|det|>[[732, 135, 910, 156]]<|/det|>
+开票日期：2025年09月03日
 
-<|ref|>text<|/ref|><|det|>[[16, 25, 303, 45]]<|/det|>
-文件（F） 编辑（E） 桌面（K） 显示器（D） 帮助（H）
+<|ref|>table<|/ref|><|det|>[[24, 220, 975, 890]]<|/det|>
 
-<|ref|>image<|/ref|><|det|>[[15, 55, 30, 78]]<|/det|>
+<table><tr><td>购买方信息</td><td colspan=""5"">名称：上海宝六维工贸有限公司<br>统一社会信用代码／纳税人识别号：91310116761197709P</td><td>销售方信息</td><td colspan=""4"">名称：广州扬傲计算机有限公司<br>统一社会信用代码／纳税人识别号：91440101MA5CJNQ74</td></tr><tr><td colspan=""2"" rowspan=""2"">项目名称<br>＊计算机配套产品＊显卡</td><td rowspan=""2"">规格型号<br>GEFORCERTX<br>5070TiX316GB</td><td rowspan=""2"">单位<br>台</td><td rowspan=""2"">数量<br>1</td><td colspan=""3"" rowspan=""2"">单价<br>5839.6814159292</td><td>金额</td><td>税率／征收率</td><td>税额</td></tr><tr><td>5839.68</td><td>13%</td><td>759.16</td></tr><tr><td colspan=""2"" rowspan=""2""></td><td colspan=""4"" rowspan=""2"">合 计 ¥5839.68 ¥759.16</td><td colspan=""5""></td></tr><tr><td colspan=""5"">价税合计（大写） （小写）¥6598.84</td></tr><tr><td>备注</td><td colspan=""10"">陆仟伍佰玖拾捌圆捌角肆分</td></tr></table>
 
-<|ref|>text<|/ref|><|det|>[[15, 82, 31, 92]]<|/det|>
-选择一项任务...
-
-<|ref|>text<|/ref|><|det|>[[15, 105, 70, 120]]<|/det|>
-3D 设置
-
-<|ref|>text<|/ref|><|det|>[[39, 128, 144, 145]]<|/det|>
-通过预览调整图像
-
-<|ref|>text<|/ref|><|det|>[[39, 154, 120, 170]]<|/det|>
-管理 3D 设置
-
-<|ref|>text<|/ref|><|det|>[[39, 180, 140, 197]]<|/det|>
-配置 Surround、P
-
-<|ref|>text<|/ref|><|det|>[[15, 212, 55, 227]]<|/det|>
-显示
-
-<|ref|>text<|/ref|><|det|>[[39, 236, 108, 252]]<|/det|>
-更改分辨率
-
-<|ref|>text<|/ref|><|det|>[[39, 261, 140, 278]]<|/det|>
-调整桌面颜色设置
-
-<|ref|>text<|/ref|><|det|>[[39, 287, 106, 303]]<|/det|>
-旋转显示器
-
-<|ref|>text<|/ref|><|det|>[[39, 312, 128, 328]]<|/det|>
-查看 HDCP 状态
-
-<|ref|>text<|/ref|><|det|>[[39, 338, 120, 355]]<|/det|>
-设置数字音频
-
-<|ref|>text<|/ref|><|det|>[[39, 364, 140, 380]]<|/det|>
-调整桌面尺寸和位
-
-<|ref|>text<|/ref|><|det|>[[39, 390, 111, 406]]<|/det|>
-设置 G-SYNC
-
-<|ref|>text<|/ref|><|det|>[[39, 415, 130, 432]]<|/det|>
-设置多个显示器
-
-<|ref|>text<|/ref|><|det|>[[15, 450, 55, 465]]<|/det|>
-视频
-
-<|ref|>text<|/ref|><|det|>[[39, 473, 140, 490]]<|/det|>
-调整视频颜色设置
-
-<|ref|>text<|/ref|><|det|>[[39, 499, 140, 515]]<|/det|>
-调整视频图像设置
-
-<|ref|>title<|/ref|><|det|>[[180, 135, 355, 155]]<|/det|>
-# 1．选择您希望更改的显示器。
-
-<|ref|>image<|/ref|><|det|>[[210, 172, 290, 245]]<|/det|>
-
-<|ref|>text<|/ref|><|det|>[[207, 223, 290, 258]]<|/det|>
-AOC AG275UXM(G-SYNC
-
-<|ref|>title<|/ref|><|det|>[[180, 351, 293, 370]]<|/det|>
-# 2．色彩准确度模式
-
-<|ref|>text<|/ref|><|det|>[[202, 390, 361, 410]]<|/det|>
-当前色彩准确度模式：增强
-
-<|ref|>text<|/ref|><|det|>[[202, 425, 300, 445]]<|/det|>
-☐覆盖参考模式
-
-<|ref|>title<|/ref|><|det|>[[180, 458, 277, 477]]<|/det|>
-# 3．应用色彩增强
-
-<|ref|>text<|/ref|><|det|>[[190, 488, 243, 506]]<|/det|>
-输出调整
-
-<|ref|>text<|/ref|><|det|>[[210, 525, 420, 546]]<|/det|>
-颜色通道（N)： 所有通道
-
-<|ref|>text<|/ref|><|det|>[[210, 570, 600, 590]]<|/det|>
-亮度（B)： 80%
-
-<|ref|>text<|/ref|><|det|>[[210, 612, 600, 632]]<|/det|>
-对比度（C)： 50%
-
-<|ref|>text<|/ref|><|det|>[[210, 653, 605, 673]]<|/det|>
-灰度（G)： 0.70
-
-<|ref|>image<|/ref|><|det|>[[668, 490, 907, 752]]<|/det|>
-
-<|ref|>text<|/ref|><|det|>[[240, 695, 490, 714]]<|/det|>
-极高和极低的亮度及对比度值可限制灰度范围。
-
-<|ref|>text<|/ref|><|det|>[[210, 772, 600, 792]]<|/det|>
-数字颜色格式（I)： 64%
-
-<|ref|>text<|/ref|><|det|>[[670, 785, 860, 804]]<|/det|>
-引用图像： 1 2 3
-
-<|ref|>text<|/ref|><|det|>[[210, 815, 576, 835]]<|/det|>
-色调（U)： 0°
-
-<|ref|>image<|/ref|><|det|>[[15, 970, 31, 989]]<|/det|>
-
-<|ref|>text<|/ref|><|det|>[[15, 976, 80, 991]]<|/det|>
-系统信息
-
-<|ref|>image<|/ref|><|det|>[[740, 944, 760, 979]]<|/det|>
-
-<|ref|>text<|/ref|><|det|>[[765, 954, 919, 977]]<|/det|>
-应用（A） 取消"
+<|ref|>text<|/ref|><|det|>[[93, 928, 202, 950]]<|/det|>
+开票人：黄万婷"

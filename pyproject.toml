@@ -18,6 +18,13 @@ dependencies = [
     "tqdm",
     "pandas",
     "easydict>=1.13",
+    "langchain",
+    "langchain-core",
+    "langchain-community",
+    "langgraph",
+    "langchain-deepseek",
+    "langchain-ollama",
+    "python-dotenv",
+    "pydantic>=2.0.0",
+    "scikit-learn",
 ]
-
-
